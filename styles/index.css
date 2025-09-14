@@ -1,0 +1,60 @@
+@import 'nav.css';
+@import 'footer.css';
+
+.image-wrapper {
+  padding: 10px 20px;
+
+  & img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+section p {
+    padding: 0 25px;
+}
+
+section ul {
+    padding-top: 10px;
+}
+
+#testimonial-wrapper {
+    border-radius: 5px;
+    margin: 10px 25px;
+    background-color: rgb(187, 180, 180);
+}
+
+#testimonial {
+  padding: 5px 25px;
+}
+
+#testimonial-author {
+    margin-left: 25px;
+}
+
+#testimonial-author span {
+    font-style: italic;
+}
+
+section ul li {
+    list-style: none;
+    color: red;
+    padding: 5px 25px;
+}
+
+@media (min-width: 800px) {
+  /* tablet */
+  .intro-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+
+    & img {
+      max-width: 400px;
+    }
+  }
+}
