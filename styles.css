@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #F8EECB;
+    color: #4B33A6;
+    padding: 5px 25px;
+}
+
+nav {
+    background-color: #E8D389;
+    color: #4B33A6;
+    padding: 5px 0px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 5px 0px;
+    font-weight: 700;
+}
+
+.nav-links {
+    border-bottom: 1px solid #4B33A6;
+}
+
+nav ul li span {
+    color: red;
+}
+
+section p {
+    padding: 5px 25px;
+}
+
+section p span {
+    color: red;
+}
+
+form {
+    padding: 10px 20px;
+}
+
+fieldset {
+    border: 1px solid #282626;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset button {
+    background-color: #4B33A6;
+    border-radius: 1rem;
+    color: white;
+}
+
+fieldset label {
+    margin-bottom: 5px;
+}
+
+fieldset input,
+fieldset textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.image-wrapper {
+    padding: 10px 20px;
+
+    & img {
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    background-color: #E8D389;
+    color: #4B33A6;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
